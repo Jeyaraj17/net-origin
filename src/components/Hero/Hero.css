@@ -1,0 +1,146 @@
+.hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 130rem;
+  margin: 0 auto;
+  align-items: center;
+  gap: 9.6rem;
+  padding: 0 3.2rem;
+}
+
+.section-hero {
+  /* padding: 9.6rem ; */
+  background-color: #ecfdf8;
+  padding: 4.8rem 0 9.6rem 0;
+}
+
+.hero-heading {
+  font-size: 8.6rem;
+  color: #44efbc;
+  margin-bottom: 3.2rem;
+}
+
+.success-quote {
+  font-family: "Pompiere";
+  font-size: 4.6rem;
+  margin-bottom: 1.2rem;
+  display: inline-block;
+  color: #071813;
+}
+
+.hero-line {
+  width: 60%;
+  height: 0.4rem;
+  background-image: linear-gradient(to right, #071813 50%, #44efbc 50%);
+  margin-bottom: 1.8rem;
+}
+
+.hero-quote {
+  font-size: 2rem;
+}
+
+.connect-us-btn {
+  display: inline-block;
+  padding: 1.8rem 3.2rem;
+  margin-top: 8rem;
+  font-size: 2.4rem;
+  text-decoration: none;
+  color: #071813;
+  border: 1px solid #071813;
+  background-color: #44efbc;
+  border-radius: 9px;
+  transition: all 0.3s;
+}
+
+.connect-us-btn:hover {
+  color: #fff;
+  background-color: #3dd7a9;
+}
+
+.hero-img-box {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.hero-img-box img {
+  width: 70%;
+}
+
+/**********************************/
+/* BELOW 1344px (smaller desktops) */
+/**********************************/
+
+@media (max-width: 84em) {
+  .hero {
+    max-width: 120rem;
+  }
+  
+}
+
+@media (max-width: 75em) {
+  .hero {
+    gap: 4.8rem;
+  }
+
+ 
+}
+
+@media (max-width: 59em) {
+  .hero {
+    grid-template-columns: 1fr;
+    padding: 0 8rem;
+    gap: 6.4rem;
+  }
+  .hero-img-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .hero-line-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 70%;
+    transform: translate(20%);
+  }
+
+  .hero-text-box,
+  .hero-img-box {
+    text-align: center;
+  }
+
+  .hero-img {
+    max-width:50%;
+    border-radius: 10px;
+  }
+}
+
+
+/**********************************/
+/* BELOW 544px (phones) */
+/**********************************/
+
+@media (max-width: 34em) {
+
+  .section-hero {
+    padding: 2.4rem 0 6.4rem 0;
+  }
+
+  .hero-line-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    transform: translate(1%);
+  }
+
+  .hero {
+    padding: 0 3.2rem;
+  }
+
+  .hero-img {
+    width: 80%;
+  }
+}
