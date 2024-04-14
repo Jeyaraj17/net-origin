@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/net-origin/static/css/main.737f43dd.chunk.css",
+    "main.js": "/net-origin/static/js/main.7b463ffa.chunk.js",
+    "main.js.map": "/net-origin/static/js/main.7b463ffa.chunk.js.map",
+    "runtime-main.js": "/net-origin/static/js/runtime-main.03a00b5d.js",
+    "runtime-main.js.map": "/net-origin/static/js/runtime-main.03a00b5d.js.map",
+    "static/js/2.d19aa636.chunk.js": "/net-origin/static/js/2.d19aa636.chunk.js",
+    "static/js/2.d19aa636.chunk.js.map": "/net-origin/static/js/2.d19aa636.chunk.js.map",
+    "static/js/3.6462a6f3.chunk.js": "/net-origin/static/js/3.6462a6f3.chunk.js",
+    "static/js/3.6462a6f3.chunk.js.map": "/net-origin/static/js/3.6462a6f3.chunk.js.map",
+    "index.html": "/net-origin/index.html",
+    "precache-manifest.2047ef4b3db3495d2f16af29089db507.js": "/net-origin/precache-manifest.2047ef4b3db3495d2f16af29089db507.js",
+    "service-worker.js": "/net-origin/service-worker.js",
+    "static/css/main.737f43dd.chunk.css.map": "/net-origin/static/css/main.737f43dd.chunk.css.map",
+    "static/js/2.d19aa636.chunk.js.LICENSE.txt": "/net-origin/static/js/2.d19aa636.chunk.js.LICENSE.txt",
+    "static/media/Copyrights.jpg": "/net-origin/static/media/Copyrights.02592cd6.jpg",
+    "static/media/footer.png": "/net-origin/static/media/footer.9e2a84cf.png",
+    "static/media/hero-img.png": "/net-origin/static/media/hero-img.d6ab46ba.png",
+    "static/media/netorigin-logo.png": "/net-origin/static/media/netorigin-logo.0b91a40e.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.03a00b5d.js",
+    "static/js/2.d19aa636.chunk.js",
+    "static/css/main.737f43dd.chunk.css",
+    "static/js/main.7b463ffa.chunk.js"
+  ]
+}
