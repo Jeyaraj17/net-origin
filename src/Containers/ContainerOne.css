@@ -56,6 +56,12 @@
   .c1-main-text-box{
     margin: 10rem 0;
   }
+  html{
+    line-height: 1.8;
+  }
  
 }
 
+@media (max-width: 412px) {
+  
+}
