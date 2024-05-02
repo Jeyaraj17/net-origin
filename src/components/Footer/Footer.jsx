@@ -25,8 +25,8 @@ export default function Footer() {
           />
         </div>
         <div className="footer-content-box">
-          <h3>Company</h3>
-          <ul className="footer-content-list">
+          <h3 className="footer-heading">Company</h3>
+          <ul className="footer-content-list footer-text">
             <li>
               <a href="#top">Home</a>
             </li>
@@ -36,8 +36,8 @@ export default function Footer() {
           </ul>
         </div>
         <div className="footer-content-box">
-          <h3>Services</h3>
-          <ul className="footer-content-list">
+          <h3 className="footer-heading">Services</h3>
+          <ul className="footer-content-list footer-text">
             <li>
               <a href="#service">Digital marketing</a>
             </li>
@@ -53,7 +53,7 @@ export default function Footer() {
           <p>UDAYAM-TN-07-0075938</p>
         </div>
         <div className="copyright-container">
-          <p>Copyright&copy;</p> <p> 2024NetOriginTechnologies</p>
+          <p>Copyright&copy;</p><p> 2024NetOriginTechnologies</p>
         </div>
         <div className="social-link-box">
           <a href="#">
